@@ -1,0 +1,71 @@
+/* ATIVIDADE 03 -->
+/* Nesta atividade vocês deverão criar uma página .html (Que deverá ser aberta pelo arquivo .index e uma página .css com os seguintes parâmetros:  */
+
+/* [x] Construção de um formulário com no mínimo 15 opções diferentes utilizando a tag forms e também a tag fieldset da forma que preferir. */
+/* [x] Você deverá utilizar opções de botão - radio e checkbox obrigatório; */
+/* [x] Aplicar um botão reset e enviar; */
+
+/* [x] Na parte do arquivo .css mude as propriedades das seguintes páginas: */
+/* [x] 3 itens da página .index */
+/* [x] 3 itens da página de formulário. */
+
+/* [x] No geral vocês devem enviar um arquivo .index, uma página .html, e um arquivo .css */
+
+/*  NÃO ESQUEÇA DE LINKAR A PÁGINA CRIADA COM O ARQUIVO INDEX.HTML */
+/* [x] Não enviar pasta compactada. */
+/* [x] Não utilizar Lorem Ipsum. */
+/* [x] Colocar os créditos das mídias abaixo das mesmas. */
+
+
+.rotate {
+    /* FF3.5+ */
+    -moz-transform: rotate(-90.0deg);
+    /* Opera 10.5 */
+    -o-transform: rotate(-90.0deg);
+    /* Saf3.1+, Chrome */
+    -webkit-transform: rotate(-90.0deg);
+    /* IE6,IE7 */
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.083);
+    /* IE8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)";
+    /* Standard */
+    transform: rotate(-90.0deg);
+  }
+
+/* index.html */
+.conteudo-principal a{
+  color: #d63384;
+}
+
+.css-seletores li{
+  list-style-type: square;
+}
+
+.css-background li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.css-pseudo-classes li{
+  color: #d63384;
+}
+
+.conteudo-principal div div p{
+  line-height: 200%;
+}
+
+
+/* forms.html */
+.input-focus:focus, .button-focus:hover{
+  background-color: #7F12F9 !important;
+  color: #ffffff !important;
+}
+
+.purple-primary{
+  background-color: #7F12F9 !important;
+}
+
+text-purple{
+  color: #7F12F9 !important;
+}
